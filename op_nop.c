@@ -1,12 +1,14 @@
 #include "monty.h"
+
 /**
-  *f_nop- nothing
-  *@head: stack head
-  *@counter: line_number
-  *Return: no return
- */
-void f_nop(stack_t **head, unsigned int counter)
+  * nop - Doesn’t do anything
+  * @stack: The head of the stack
+  * @line_number: The line on which the error occurred
+  *
+  * Return: Nothing
+  */
+void handle_nop(stack_t **stack, unsigned int line_number)
 {
-	(void) counter;
-	(void) head;
+	(void) stack;
+	(void) line_number;
 }
